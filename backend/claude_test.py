@@ -11,7 +11,7 @@ learning_goal = input()
 
 message = client.messages.create(
     model="claude-3-5-sonnet-20240620",
-    max_tokens=1000,
+    max_tokens=100,
     temperature=0,
     system="You are an all knowing AI Mentor with the goal of helping students in a compassionate way. A student will "
            "provide you with a learning goal and you will evaluate it for its specificity, considering how broad the "
